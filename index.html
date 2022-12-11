@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-304-03</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            padding: 10px;
+        }
+
+        .main{
+            width: fit-content;
+            height: fit-content;
+        }
+        img{
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 12px;
+            line-height: 20px;
+            margin-left: 15px;
+            color: black;
+            font-family:sans-serif;
+            font-weight: 500;
+        }
+        .amount{
+            display: flex;
+            align-items: center;
+        }
+        .symbol{
+            font-weight: bold;
+            font-size: 12px;
+            color: #767676;
+            font-family: sans-serif;
+        }
+        span{
+            font-weight: bold;
+            font-size: 14px;
+            color: #767676;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="img-304-03.png" alt="Whiskers Hair Serum">
+        <p>Whiskers Hair Serum</p>
+        <div class="amount">
+            <p class="symbol">₹</p>
+            <span>550.00</span>
+        </div>
+    </div>
+</body>
+</html>
